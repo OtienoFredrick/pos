@@ -1,9 +1,14 @@
 {
   "rewrites": [
-    { "source": "/portal/login", "destination": "/portal/login.html" },
-    { "source": "/portal/signup", "destination": "/portal/signup.html" },
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/about-us", "destination": "/about-us.html" },
+    { "source": "/fees", "destination": "/fees.html" },
+    { "source": "/about-founder", "destination": "/about-founder.html" },
     { "source": "/pages/contact", "destination": "/pages/contact.html" },
-    { "source": "/", "destination": "/index.html" }
+    { "source": "/pages/policies", "destination": "/pages/policies.html" },
+    { "source": "/pages/refund-policy", "destination": "/pages/refund-policy.html" },
+    { "source": "/portal/login", "destination": "/portal/login.html" },
+    { "source": "/portal/signup", "destination": "/portal/signup.html" }
   ],
   "builds": [
     { "src": "public/**/*", "use": "@vercel/static" },
