@@ -1,0 +1,5 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+21:06:05	528/528	---MCZ	404	error ('Not%20Found')	text/html	date:Fri,%2020%20Feb%202026%2018:06:04%20GMT	https://example.com/about-us.php	/home/fredy/Website-Cloner/school/example.com/about-us.0.delayed	(from )
+21:06:06	528/528	---MCZ	404	error ('Not%20Found')	text/html	date:Fri,%2020%20Feb%202026%2018:06:05%20GMT	https://example.com/fees.php	/home/fredy/Website-Cloner/school/example.com/fees.php	(from )
+21:06:07	528/528	---MCZ	404	error ('Not%20Found')	text/html	date:Fri,%2020%20Feb%202026%2018:06:06%20GMT	https://example.com/about-founder.php	/home/fredy/Website-Cloner/school/example.com/about-founder.php	(from )
+21:06:09	376/376	---MCZ	404	error ('Not%20Found')	text/html	date:Fri,%2020%20Feb%202026%2018:06:07%20GMT	https://example.com/robots.txt		(from )
