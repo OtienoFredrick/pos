@@ -1,4 +1,10 @@
 {
+  "rewrites": [
+    { "source": "/portal/login", "destination": "/portal/login.html" },
+    { "source": "/portal/signup", "destination": "/portal/signup.html" },
+    { "source": "/pages/contact", "destination": "/pages/contact.html" },
+    { "source": "/", "destination": "/index.html" }
+  ],
   "builds": [
     { "src": "public/**/*", "use": "@vercel/static" },
     { "src": "api/**/*.js", "use": "@vercel/node" }
